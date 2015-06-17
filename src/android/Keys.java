@@ -18,10 +18,10 @@ package com.vapps.alipay;
 public final class Keys {
 
 	//合作身份者id，以2088开头的16位纯数字
-	public static final String PARTNER = "2088911723410750";
+	public static final String PARTNER = "";
 
 	//收款支付宝账号
-	public static final String SELLER = "cbq9899@163.com";
+	public static final String SELLER = "";
 
 	//商户私钥，自助生成   pkcs8格式
 	public static final String RSA_PRIVATE =   "MIICXQIBAAKBgQDlsWNmWS30bcSXsylodD3+F0IHzXMKgU8t51BQ4LSF+cz3BxJ6"+

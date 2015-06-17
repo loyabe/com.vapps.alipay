@@ -15,9 +15,9 @@
 #define Alipay_Keys_h
 
 //合作身份者id，以2088开头的16位纯数字
-#define PartnerID @"2088911723410750"
+#define PartnerID @""
 //收款支付宝账号
-#define SellerID  @"cbq9899@163.com"
+#define SellerID  @""
 
 
 //应用注册scheme,在AlixPayDemo-Info.plist定义URL types
