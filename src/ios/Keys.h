@@ -1,0 +1,36 @@
+//
+//  Keys.h
+//  TestAlipayDemo
+//
+//  Created by chen on 15/5/13.
+//
+//
+//  提示：如何获取安全校验码和合作身份者id
+//  1.用您的签约支付宝账号登录支付宝网站(www.alipay.com)
+//  2.点击“商家服务”(https://b.alipay.com/order/myorder.htm)
+//  3.点击“查询合作者身份(pid)”、“查询安全校验码(key)”
+//
+
+#ifndef Alipay_Keys_h
+#define Alipay_Keys_h
+
+//合作身份者id，以2088开头的16位纯数字
+#define PartnerID @"2088911723410750"
+//收款支付宝账号
+#define SellerID  @"cbq9899@163.com"
+
+
+//应用注册scheme,在AlixPayDemo-Info.plist定义URL types
+#define UrlScheme_Key @"alisdkppt"
+
+//商户私钥，自助生成
+#define PartnerPrivKey @"MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAOWxY2ZZLfRtxJezKWh0Pf4XQgfNcwqBTy3nUFDgtIX5zPcHEnqM79sdDbiAisufxcvlB/oxc8t19RPnrE14++w2gDrQc5Be9/JHxYTyFyTkseMyftN2ckmJ7TaqR0lCHLwd+GVTrWXL3lv36NC5iEkCiqkdsDdPpzn2jdNg+8vBAgMBAAECgYEAntnLMKFEUuMHLxLM9FxP80YKeHLxuLYtGEX9GbINpwpXYhAWC4Mk7phtQMhFNQXOOXCvz6wbtP5i+90hIIMnVantMWIF0J4zJ1Il8faVs2frd4NMdg4H3Ndv+1hOH8VoAwNvGA0khzX1JFhR9FI9NTkh5k7AnOOmiGE9n6gHJ/ECQQD4EEqmV1eceJPmMI5Jrx5PJxxoCTXUENE4n3IapUjsoncT8G7voXE7WRpXuyQx/9dCTkT8n5BMI/RL6ljXcicTAkEA7QqisqqKv89t5SfcoLoG0tID3cyRcVIc+n9MXYN0jep2rcuHhrNvNRACRFkSPdOLz1U5T9xrb06Ef6fVgm14WwJBAMsU41hcxv/1gvd/pu1R7VlVpp7Rc30Cq5ZUiqCf0hzQQPZU7y1FGSNCJhvOvKomTn8c/sNmikabZMPFvifbb3sCQAm/YTdlqfT/S66buAfn/nXW6w/I5MY7MTPf3j0ONdHMLXsyHm2cnVsaQG2dGBHwzBQHlibBkq1uFibFuRL2+3cCQGxHoIfFu0tl8XHjTFf0nHNZUW5YUVHLIfkgqoGFz3G/uPXvpr6ytYDv1ubxZXKdO+dRICQcyG3moMTSI0yGe7A="
+
+//@"MIICXQIBAAKBgQDlsWNmWS30bcSXsylodD3+F0IHzXMKgU8t51BQ4LSF+cz3BxJ6jO/bHQ24gIrLn8XL5Qf6MXPLdfUT56xNePvsNoA60HOQXvfyR8WE8hck5LHjMn7TdnJJie02qkdJQhy8HfhlU61ly95b9+jQuYhJAoqpHbA3T6c59o3TYPvLwQIDAQABAoGBAJ7ZyzChRFLjBy8SzPRcT/NGCnhy8bi2LRhF/RmyDacKV2IQFguDJO6YbUDIRTUFzjlwr8+sG7T+YvvdISCDJ1Wp7TFiBdCeMydSJfH2lbNn63eDTHYOB9zXb/tYTh/FaAMDbxgNJIc19SRYUfRSPTU5IeZOwJzjpohhPZ+oByfxAkEA+BBKpldXnHiT5jCOSa8eTyccaAk11BDROJ9yGqVI7KJ3E/Bu76FxO1kaV7skMf/XQk5E/J+QTCP0S+pY13InEwJBAO0KorKqir/PbeUn3KC6BtLSA93MkXFSHPp/TF2DdI3qdq3Lh4azbzUQAkRZEj3Ti89VOU/ca29OhH+n1YJteFsCQQDLFONYXMb/9YL3f6btUe1ZVaae0XN9AquWVIqgn9Ic0ED2VO8tRRkjQiYbzryqJk5/HP7DZopGm2TDxb4n2297AkAJv2E3Zan0/0uum7gH5/511usPyOTGOzEz3949DjXRzC17Mh5tnJ1bGkBtnRgR8MwUB5YmwZKtbhYmxbkS9vt3AkBsR6CHxbtLZfFx40xX9JxzWVFuWFFRyyH5IKqBhc9xv7j176a+srWA79bm8WVynTvnUSAkHMht5qDE0iNMhnuw"
+
+
+
+//支付宝公钥 无需修改
+#define AlipayPubKey   @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB"
+
+#endif
